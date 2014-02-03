@@ -1,3 +1,9 @@
+bosixnet (1.1-0ppa1~trusty1) trusty; urgency=medium
+
+  * New upstream release.
+
+ -- Boris Pek <tehnick@debian.org>  Tue, 04 Feb 2014 01:20:35 +0400
+
 bosixnet (1.0-1) unstable; urgency=low
 
   * Initial release.
