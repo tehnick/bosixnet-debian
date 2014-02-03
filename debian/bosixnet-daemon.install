@@ -1,0 +1,4 @@
+/etc/bosixnet/bosixnet-daemon.conf
+/usr/bin/bosixnet_daemon
+/usr/lib/bosixnet/update_address
+/usr/lib/bosixnet/update_hosts

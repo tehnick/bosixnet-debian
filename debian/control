@@ -1,0 +1,29 @@
+Source: bosixnet
+Section: net
+Priority: optional
+Maintainer: Boris Pek <tehnick@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), cmake, libfcgi-dev
+Homepage: https://github.com/tehnick/bosixnet
+Vcs-Git: git://github.com/tehnick/bosixnet-debian.git
+Vcs-Browser: https://github.com/tehnick/bosixnet-debian
+Standards-Version: 3.9.5
+
+Package: bosixnet-daemon
+Architecture: all
+Depends: ${misc:Depends}, curl, sed (>= 4.2)
+Suggests: bosixnet-webui, miredo | gogoc
+Description: Build Own IPv6 Network (client utilities)
+ Shell script which periodically sends information about current IPv6 address
+ to remote server and updates local /etc/hosts based on data received from
+ that remote server. It is expected that bosixnet-webui is launched on that
+ remote server.
+
+Package: bosixnet-webui
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, spawn-fcgi, curl, sed (>= 4.2)
+Recommends: bosixnet-daemon
+Suggests: miredo | gogoc
+Description: Build Own IPv6 Network (server utilities)
+ FastCGI program which passively listens for incoming connections and
+ generates list of hosts in your IPv6 network. This daemon prepares data
+ which may be put directly into /etc/hosts.

@@ -1,0 +1,3 @@
+/etc/bosixnet/bosixnet-webui.conf
+/usr/bin/bosixnet_webui
+/usr/lib/bosixnet/webui_launcher
