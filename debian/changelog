@@ -1,5 +1,5 @@
-bosixnet (1.2-1) unstable; urgency=medium
+bosixnet (1.3-1) unstable; urgency=medium
 
-  * Initial release..
+  * Initial release.
 
- -- Boris Pek <tehnick@debian.org>  Tue, 04 Feb 2014 15:02:17 +0400
+ -- Boris Pek <tehnick@debian.org>  Tue, 04 Feb 2014 15:56:25 +0400
