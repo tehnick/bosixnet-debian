@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+id -u bosixnet >/dev/null 2>&1 || adduser --quiet \
+                                          --system \
+                                          --group \
+                                          --no-create-home \
+                                          bosixnet
+
+#DEBHELPER#
