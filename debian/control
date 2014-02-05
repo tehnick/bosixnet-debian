@@ -10,7 +10,7 @@ Standards-Version: 3.9.5
 
 Package: bosixnet-daemon
 Architecture: all
-Depends: ${misc:Depends}, curl, sed (>= 4.2)
+Depends: ${misc:Depends}, sed (>= 4.2), curl
 Suggests: bosixnet-webui, miredo | gogoc
 Description: Build Own IPv6 Network (client utilities)
  Shell script which periodically sends information about current IPv6 address
@@ -20,7 +20,8 @@ Description: Build Own IPv6 Network (client utilities)
 
 Package: bosixnet-webui
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, spawn-fcgi, curl, sed (>= 4.2)
+Depends: ${misc:Depends}, ${shlibs:Depends}, sed (>= 4.2),
+ spawn-fcgi, curl, adduser
 Recommends: bosixnet-daemon
 Suggests: miredo | gogoc
 Description: Build Own IPv6 Network (server utilities)
