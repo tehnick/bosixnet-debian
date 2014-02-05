@@ -1,5 +1,6 @@
-/etc/bosixnet/bosixnet-daemon.conf
-/usr/bin/bosixnet_daemon
-/usr/lib/bosixnet/daemon_launcher
-/usr/lib/bosixnet/update_address
-/usr/lib/bosixnet/update_hosts
+etc/bosixnet/bosixnet-daemon.conf
+usr/bin/bosixnet_daemon
+usr/lib/bosixnet/daemon_launcher
+usr/lib/bosixnet/update_address
+usr/lib/bosixnet/update_hosts
+usr/share/man/man1/bosixnet_daemon.1.gz

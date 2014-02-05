@@ -1,3 +1,4 @@
-/etc/bosixnet/bosixnet-webui.conf
-/usr/bin/bosixnet_webui
-/usr/lib/bosixnet/webui_launcher
+etc/bosixnet/bosixnet-webui.conf
+usr/bin/bosixnet_webui
+usr/lib/bosixnet/webui_launcher
+usr/share/man/man1/bosixnet_webui.1.gz
