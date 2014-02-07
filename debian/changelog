@@ -1,8 +1,10 @@
-bosixnet (1.5-1ppa1~trusty1) trusty; urgency=medium
+bosixnet (1.5-2) unstable; urgency=medium
 
-  * Rebuild for Launchpad.
+  * Bump debhelper version to 9 (was 7.0.50~); update debian/compat.
+  * Update descriptions of packages.
+  * Simplify d/rules.
 
- -- Boris Pek <tehnick@debian.org>  Wed, 05 Feb 2014 22:23:25 +0400
+ -- Boris Pek <tehnick@debian.org>  Fri, 07 Feb 2014 20:33:39 +0400
 
 bosixnet (1.5-1) unstable; urgency=medium
 
