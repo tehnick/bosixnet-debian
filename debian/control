@@ -13,10 +13,17 @@ Architecture: all
 Depends: ${misc:Depends}, sed (>= 4.2), curl
 Suggests: bosixnet-webui, miredo | gogoc
 Description: Build Own IPv6 Network (client utilities)
- Shell script which periodically sends information about current IPv6 address
- to remote server and updates local /etc/hosts based on data received from
- that remote server. It is expected that bosixnet-webui is launched on that
- remote server.
+ Project should be useful when you have to administer many computers
+ distributed through different networks and connected via NAT. In most of
+ cases you may just install miredo, gogoc or any other tunnel broker's
+ software and these computers will be available via IPv6 addresses. BOSixNet
+ includes the collection of tools for automatic updating the list of such
+ hosts.
+ .
+ This package provides the shell script which periodically sends information
+ about current IPv6 address to remote server and updates local /etc/hosts
+ based on data received from that remote server. It is expected that
+ bosixnet-webui is launched on that remote server.
 
 Package: bosixnet-webui
 Architecture: any
@@ -25,6 +32,14 @@ Depends: ${misc:Depends}, ${shlibs:Depends}, sed (>= 4.2),
 Recommends: bosixnet-daemon
 Suggests: miredo | gogoc
 Description: Build Own IPv6 Network (server utilities)
- FastCGI program which passively listens for incoming connections and
- generates list of hosts in your IPv6 network. This daemon prepares data
- which may be put directly into /etc/hosts.
+ Project should be useful when you have to administer many computers
+ distributed through different networks and connected via NAT. In most of
+ cases you may just install miredo, gogoc or any other tunnel broker's
+ software and these computers will be available via IPv6 addresses. BOSixNet
+ includes the collection of tools for automatic updating the list of such
+ hosts.
+ .
+ This package provides the FastCGI program which passively listens for
+ incoming connections and generates list of hosts in your IPv6 network which
+ may be put directly into /etc/hosts. Program has very few dependencies and
+ it may be easily launched on embedded devices.
