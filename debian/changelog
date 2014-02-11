@@ -1,3 +1,9 @@
+bosixnet (1.6-1ppa1~trusty1) trusty; urgency=medium
+
+  * Rebuild for Launchpad.
+
+ -- Boris Pek <tehnick@debian.org>  Tue, 11 Feb 2014 20:39:47 +0400
+
 bosixnet (1.6-1) experimental; urgency=medium
 
   * Initial release.
