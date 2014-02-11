@@ -1,5 +1,5 @@
 bosixnet (1.6-1) experimental; urgency=medium
 
-  * Initial release.
+  * Initial release.  (Closes: #738681)
 
- -- Boris Pek <tehnick@debian.org>  Tue, 11 Feb 2014 20:35:15 +0400
+ -- Boris Pek <tehnick@debian.org>  Wed, 12 Feb 2014 01:29:40 +0400
