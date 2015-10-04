@@ -2,7 +2,7 @@ Source: bosixnet
 Section: net
 Priority: optional
 Maintainer: Boris Pek <tehnick@debian.org>
-Build-Depends: debhelper (>= 9), cmake, libfcgi-dev
+Build-Depends: cmake, debhelper (>= 9), libfcgi-dev
 Homepage: https://github.com/tehnick/bosixnet
 Vcs-Git: git://github.com/tehnick/bosixnet-debian.git
 Vcs-Browser: https://github.com/tehnick/bosixnet-debian
@@ -10,7 +10,7 @@ Standards-Version: 3.9.6
 
 Package: bosixnet-daemon
 Architecture: all
-Depends: ${misc:Depends}, sed (>= 4.2), curl
+Depends: curl, sed (>= 4.2), ${misc:Depends}
 Suggests: bosixnet-webui, miredo | gogoc
 Description: Build Own IPv6 Network (client utilities)
  Project should be useful when you have to administer many computers
@@ -27,8 +27,12 @@ Description: Build Own IPv6 Network (client utilities)
 
 Package: bosixnet-webui
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, sed (>= 4.2),
- spawn-fcgi, curl, adduser
+Depends: adduser,
+         curl,
+         sed (>= 4.2),
+         spawn-fcgi,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: bosixnet-daemon
 Suggests: miredo | gogoc
 Description: Build Own IPv6 Network (server utilities)
