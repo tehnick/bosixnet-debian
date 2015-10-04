@@ -1,3 +1,9 @@
+bosixnet (1.7-1ppa1~wily1) wily; urgency=medium
+
+  * Rebuild for Launchpad.
+
+ -- Boris Pek <tehnick@debian.org>  Mon, 05 Oct 2015 00:57:16 +0300
+
 bosixnet (1.7-1) unstable; urgency=medium
 
   * Bump Standards-Version to 3.9.6 (was 3.9.5): no changes required.
