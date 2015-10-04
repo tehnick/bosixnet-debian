@@ -1,11 +1,21 @@
-bosixnet (1.6-1ppa1~trusty1) trusty; urgency=medium
+bosixnet (1.7-1) unstable; urgency=medium
 
-  * Rebuild for Launchpad.
+  * Bump Standards-Version to 3.9.6 (was 3.9.5): no changes required.
+  * Update debian/copyright: relicensed from GPLv2 or later to Expat.
+  * Update debian/control using wrap-and-sort tool.
+  * Fix lintian error:
+    maintainer-script-should-not-use-adduser-system-without-home
 
- -- Boris Pek <tehnick@debian.org>  Tue, 11 Feb 2014 20:39:47 +0400
+ -- Boris Pek <tehnick@debian.org>  Sun, 04 Oct 2015 22:20:39 +0300
+
+bosixnet (1.6-2) unstable; urgency=medium
+
+  * Move package to unstable: no changes required.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 13 Feb 2014 14:08:07 +0400
 
 bosixnet (1.6-1) experimental; urgency=medium
 
-  * Initial release.
+  * Initial release.  (Closes: #738681)
 
- -- Boris Pek <tehnick@debian.org>  Tue, 11 Feb 2014 20:35:15 +0400
+ -- Boris Pek <tehnick@debian.org>  Wed, 12 Feb 2014 01:29:40 +0400
