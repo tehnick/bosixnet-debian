@@ -1,3 +1,13 @@
+bosixnet (1.7-1) unstable; urgency=medium
+
+  * Bump Standards-Version to 3.9.6 (was 3.9.5): no changes required.
+  * Update debian/copyright: relicensed from GPLv2 or later to Expat.
+  * Update debian/control using wrap-and-sort tool.
+  * Fix lintian error:
+    maintainer-script-should-not-use-adduser-system-without-home
+
+ -- Boris Pek <tehnick@debian.org>  Sun, 04 Oct 2015 22:20:39 +0300
+
 bosixnet (1.6-2) unstable; urgency=medium
 
   * Move package to unstable: no changes required.
