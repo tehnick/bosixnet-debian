@@ -6,7 +6,7 @@ Build-Depends: cmake, debhelper (>= 9), libfcgi-dev
 Homepage: https://github.com/tehnick/bosixnet
 Vcs-Git: git://github.com/tehnick/bosixnet-debian.git
 Vcs-Browser: https://github.com/tehnick/bosixnet-debian
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 
 Package: bosixnet-daemon
 Architecture: all
