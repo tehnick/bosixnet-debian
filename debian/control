@@ -10,7 +10,7 @@ Standards-Version: 3.9.8
 
 Package: bosixnet-daemon
 Architecture: all
-Depends: curl, sed, ${misc:Depends}
+Depends: curl, sed (>= 4.2), ${misc:Depends}
 Suggests: bosixnet-webui, miredo | gogoc
 Description: Build Own IPv6 Network (client utilities)
  Project should be useful when you have to administer many computers
@@ -29,7 +29,7 @@ Package: bosixnet-webui
 Architecture: any
 Depends: adduser,
          curl,
-         sed,
+         sed (>= 4.2),
          spawn-fcgi,
          ${misc:Depends},
          ${shlibs:Depends}
