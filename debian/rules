@@ -8,7 +8,7 @@ CUR_VER = $(shell echo "$(USCAN_REPORT)" | sed -n 's/.*<upstream-version>\(.*\)<
 CUR_URL = $(shell echo "$(USCAN_REPORT)" | sed -n 's/.*<upstream-url>\(.*\)<\/upstream-url>.*/\1/p')
 
 %:
-	dh $@ --parallel --list-missing
+	dh $@ --parallel --list-missing --with systemd
 
 override_dh_auto_configure:
 	dh_auto_configure
