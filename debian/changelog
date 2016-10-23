@@ -1,3 +1,18 @@
+bosixnet (1.8-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.8 (was 3.9.6): no changes required.
+  * Update debian/control:
+    - fix lintian error init.d-script-needs-depends-on-lsb-base
+    - fix lintian note vcs-field-uses-insecure-uri vcs-git
+    - add build dependency on dh-systemd
+  * Update debian/rules:
+    - add --list-missing and --with systemd options for dh
+  * Update debian/bosixnet-*.install files.
+  * Update years in debian/copyright.
+
+ -- Boris Pek <tehnick@debian.org>  Sun, 23 Oct 2016 13:20:36 +0300
+
 bosixnet (1.7-1) unstable; urgency=medium
 
   * Bump Standards-Version to 3.9.6 (was 3.9.5): no changes required.
