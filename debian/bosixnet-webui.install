@@ -1,4 +1,5 @@
 etc/bosixnet/bosixnet-webui.conf
+lib/systemd/system/bosixnet-webui.service
 usr/bin/bosixnet_webui
 usr/lib/bosixnet/webui_launcher
 usr/share/man/man1/bosixnet_webui.1.gz

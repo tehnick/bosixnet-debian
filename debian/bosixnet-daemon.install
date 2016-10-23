@@ -1,4 +1,5 @@
 etc/bosixnet/bosixnet-daemon.conf
+lib/systemd/system/bosixnet-daemon.service
 usr/bin/bosixnet_daemon
 usr/lib/bosixnet/daemon_launcher
 usr/lib/bosixnet/update_address

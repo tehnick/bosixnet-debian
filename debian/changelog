@@ -1,8 +1,23 @@
-bosixnet (1.7-1ppa1~wily1) wily; urgency=medium
+bosixnet (1.8-1ppa1~yakkety1) yakkety; urgency=medium
 
   * Rebuild for Launchpad.
 
- -- Boris Pek <tehnick@debian.org>  Mon, 05 Oct 2015 00:57:16 +0300
+ -- Boris Pek <tehnick@debian.org>  Sun, 23 Oct 2016 14:11:46 +0300
+
+bosixnet (1.8-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.8 (was 3.9.6): no changes required.
+  * Update debian/control:
+    - fix lintian error init.d-script-needs-depends-on-lsb-base
+    - fix lintian note vcs-field-uses-insecure-uri vcs-git
+    - add build dependency on dh-systemd
+  * Update debian/rules:
+    - add --list-missing and --with systemd options for dh
+  * Update debian/bosixnet-*.install files.
+  * Update years in debian/copyright.
+
+ -- Boris Pek <tehnick@debian.org>  Sun, 23 Oct 2016 13:20:36 +0300
 
 bosixnet (1.7-1) unstable; urgency=medium
 
