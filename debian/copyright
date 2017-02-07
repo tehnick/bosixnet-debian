@@ -1,18 +1,18 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Debianized-By: Boris Pek <tehnick-8@mail.ru>
+Debianized-By: Boris Pek <tehnick-8@yandex.ru>
 Debianized-Date: Mon, 03 Feb 2014 23:50:14 +0400
 Upstream-Name: BOSixNet
-Upstream-Contact: Boris Pek <tehnick-8@mail.ru>
+Upstream-Contact: Boris Pek <tehnick-8@yandex.ru>
 Source: https://github.com/tehnick/bosixnet/tags
  The orig.tar.gz is just renamed upstream tarball (without changes).
  See section get-orig-source in debian/rules file for details.
 
 Files: *
-Copyright: 2013-2016 Boris Pek <tehnick-8@mail.ru>
+Copyright: 2013-2017 Boris Pek <tehnick-8@yandex.ru>
 License: Expat
 
 Files: debian/*
-Copyright: 2014-2016 Boris Pek <tehnick-8@mail.ru>
+Copyright: 2014-2017 Boris Pek <tehnick-8@yandex.ru>
 License: Expat
 
 License: Expat
