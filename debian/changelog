@@ -1,3 +1,11 @@
+bosixnet (1.9-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update debian/copyright.
+  * Enable all hardening flags in debian/rules.
+
+ -- Boris Pek <tehnick@debian.org>  Wed, 08 Feb 2017 02:10:37 +0300
+
 bosixnet (1.8-1) unstable; urgency=medium
 
   * New upstream release.
