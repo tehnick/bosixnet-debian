@@ -1,3 +1,9 @@
+bosixnet (1.9-1ppa1~zesty1) zesty; urgency=medium
+
+  * Rebuild for Launchpad.
+
+ -- Boris Pek <tehnick@debian.org>  Wed, 08 Feb 2017 02:20:32 +0300
+
 bosixnet (1.9-1) unstable; urgency=medium
 
   * New upstream release.
