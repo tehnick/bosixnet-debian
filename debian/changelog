@@ -1,3 +1,9 @@
+bosixnet (1.8-1~bpo8+1) jessie-backports; urgency=medium
+
+  * Rebuild for jessie-backports.
+
+ -- Boris Pek <tehnick@debian.org>  Wed, 08 Feb 2017 04:04:39 +0300
+
 bosixnet (1.8-1) unstable; urgency=medium
 
   * New upstream release.
