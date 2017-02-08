@@ -8,11 +8,11 @@ Source: https://github.com/tehnick/bosixnet/tags
  See section get-orig-source in debian/rules file for details.
 
 Files: *
-Copyright: 2013-2015 Boris Pek <tehnick-8@mail.ru>
+Copyright: 2013-2016 Boris Pek <tehnick-8@mail.ru>
 License: Expat
 
 Files: debian/*
-Copyright: 2014-2015 Boris Pek <tehnick-8@mail.ru>
+Copyright: 2014-2016 Boris Pek <tehnick-8@mail.ru>
 License: Expat
 
 License: Expat
