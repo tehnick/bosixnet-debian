@@ -1,3 +1,9 @@
+bosixnet (1.9-1~bpo9+1) stretch-backports; urgency=medium
+
+  * Rebuild for stretch-backports.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 07 Sep 2017 13:08:29 +0300
+
 bosixnet (1.9-1) unstable; urgency=medium
 
   * New upstream release.
