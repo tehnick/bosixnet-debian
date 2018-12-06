@@ -1,3 +1,9 @@
+bosixnet (2.0-0ppa1~cosmic1) cosmic; urgency=medium
+
+  * New stable release.
+
+ -- Boris Pek <tehnick@debian.org>  Fri, 07 Dec 2018 01:33:29 +0300
+
 bosixnet (1.9-1ppa1~zesty1) zesty; urgency=medium
 
   * Rebuild for Launchpad.
