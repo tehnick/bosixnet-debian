@@ -2,7 +2,7 @@ Source: bosixnet
 Section: net
 Priority: optional
 Maintainer: Boris Pek <tehnick@debian.org>
-Build-Depends: cmake, debhelper (>= 11~), dh-systemd, libfcgi-dev
+Build-Depends: cmake, debhelper (>= 11~), libfcgi-dev
 Homepage: https://github.com/tehnick/bosixnet
 Vcs-Git: https://github.com/tehnick/bosixnet-debian.git
 Vcs-Browser: https://github.com/tehnick/bosixnet-debian
