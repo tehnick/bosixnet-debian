@@ -1,3 +1,10 @@
+bosixnet (2.0-1~bpo9+1) stretch-backports; urgency=medium
+
+  * Rebuild for stretch-backports.
+  * Decrease debhelper version to 10 (was 11~); update debian/compat.
+
+ -- Boris Pek <tehnick@debian.org>  Sun, 16 Dec 2018 15:15:48 +0300
+
 bosixnet (2.0-1) unstable; urgency=medium
 
   * New upstream release.
