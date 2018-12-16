@@ -1,8 +1,24 @@
-bosixnet (1.9-1~bpo9+1) stretch-backports; urgency=medium
+bosixnet (2.0-1) unstable; urgency=medium
 
-  * Rebuild for stretch-backports.
+  * New upstream release.
+  * Bump Standards-Version to 4.2.1 (was 3.9.8).
+  * Bump debhelper version to 11~ (was 9); update debian/compat.
+  * Update debian/control:
+    - delete build dependency from dh-systemd
+    - add net-tools to dependencies of bosixnet-daemon package
+  * Simplify debian/rules:
+    - delete "--parallel", "--list-missing" and "--with systemd" options
+      from dh after switching to new debhelper
+    - delete get-orig-source section after switching to new Standards-Version
+    - stop support of SysVinit: delete override_dh_auto_configure and
+      override_dh_auto_clean sections
+    - delete override_dh_builddeb section: fixes lintian note:
+      debian-rules-should-not-use-custom-compression-settings
+  * Add debian/source/lintian-overrides.
+  * Add debian/upstream/metadata.
+  * Update debian/copyright.
 
- -- Boris Pek <tehnick@debian.org>  Thu, 07 Sep 2017 13:08:29 +0300
+ -- Boris Pek <tehnick@debian.org>  Mon, 10 Dec 2018 03:39:54 +0300
 
 bosixnet (1.9-1) unstable; urgency=medium
 

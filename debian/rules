@@ -1,30 +1,8 @@
 #!/usr/bin/make -f
 
-PACKAGE = bosixnet
-
-DEBIAN_PATH := $(abspath $(dir $(MAKEFILE_LIST)))
-USCAN_REPORT = $(shell uscan --noconf --report --dehs $(DEBIAN_PATH))
-CUR_VER = $(shell echo "$(USCAN_REPORT)" | sed -n 's/.*<upstream-version>\(.*\)<\/upstream-version>.*/\1/p')
-CUR_URL = $(shell echo "$(USCAN_REPORT)" | sed -n 's/.*<upstream-url>\(.*\)<\/upstream-url>.*/\1/p')
-
 export DEB_CXXFLAGS_MAINT_APPEND = $(shell dpkg-buildflags --get CPPFLAGS)
 export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
-	dh $@ --parallel --list-missing --with systemd
-
-override_dh_auto_configure:
-	dh_auto_configure
-	cp -f $(CURDIR)/src/bosixnet-daemon/bosixnet-daemon $(CURDIR)/debian/bosixnet-daemon.init
-	cp -f $(CURDIR)/src/bosixnet-webui/bosixnet-webui   $(CURDIR)/debian/bosixnet-webui.init
-
-override_dh_auto_clean:
-	dh_auto_clean
-	rm -f $(CURDIR)/debian/*.init
-
-override_dh_builddeb:
-	dh_builddeb -- -Zxz
-
-get-orig-source:
-	wget -c "$(CUR_URL)" -O "$(PACKAGE)_$(CUR_VER).orig.tar.gz"
+	dh $@
