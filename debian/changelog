@@ -1,3 +1,10 @@
+bosixnet (2.0-1ppa1~cosmic1) cosmic; urgency=medium
+
+  * Rebuild for Launchpad.
+  * Decrease debhelper version to 9 (was 11~); update debian/compat.
+
+ -- Boris Pek <tehnick@debian.org>  Sun, 16 Dec 2018 15:25:05 +0300
+
 bosixnet (2.0-1) unstable; urgency=medium
 
   * New upstream release.
