@@ -1,4 +1,4 @@
-version=3
+version=4
 https://github.com/tehnick/bosixnet/tags \
 .*/tehnick/bosixnet/archive/v(\d.+)\.tar\.gz \
 debian uupdate
