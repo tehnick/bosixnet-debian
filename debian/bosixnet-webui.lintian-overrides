@@ -1,0 +1,5 @@
+# SysVinit is not supported
+bosixnet-webui: package-supports-alternative-init-but-no-init.d-script lib/systemd/system/bosixnet-webui.service
+
+# This is just a launcher script
+bosixnet-webui: executable-in-usr-lib usr/lib/bosixnet/webui_launcher
