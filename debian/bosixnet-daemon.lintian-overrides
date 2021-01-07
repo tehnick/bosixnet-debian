@@ -1,0 +1,9 @@
+# SysVinit is not supported
+bosixnet-daemon: package-supports-alternative-init-but-no-init.d-script lib/systemd/system/bosixnet-daemon.service
+
+# This is just a launcher script
+bosixnet-daemon: executable-in-usr-lib usr/lib/bosixnet/daemon_launcher
+
+# These scripts are used only by bosixnet-daemon and not intended for separate usage
+bosixnet-daemon: executable-in-usr-lib usr/lib/bosixnet/update_address
+bosixnet-daemon: executable-in-usr-lib usr/lib/bosixnet/update_hosts
