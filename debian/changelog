@@ -1,3 +1,19 @@
+bosixnet (2.0-2) unstable; urgency=medium
+
+  * Update debian/control:
+    - bump Standards-Version to 4.5.1 (was 4.2.1): no changes required
+    - replace build dependency from debhelper (>= 11~) to
+      debhelper-compat (= 13)
+    - add Rules-Requires-Root: no
+  * Delete debian/compat
+  * Update debian/watch
+  * Simplify debian/rules:
+    remove DEB_LDFLAGS_MAINT_APPEND variable with -Wl,--as-needed flag
+  * Add debian/bosixnet-webui.lintian-overrides
+  * Add debian/bosixnet-daemon.lintian-overrides
+
+ -- Boris Pek <tehnick@debian.org>  Fri, 08 Jan 2021 00:53:45 +0300
+
 bosixnet (2.0-1) unstable; urgency=medium
 
   * New upstream release.
